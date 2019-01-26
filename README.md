@@ -1,5 +1,5 @@
 # NumberPrediction
-Using Tensorflow.js to machine learn a pattern from 6 inputs that user keys in user. Then the user give a new number to get the prodiction from the learnt model.
+Using Tensorflow.js to machine learn a pattern from the user's 6 inputs. Then using the model, predict a result from another user input, using the pattern learnt.
 
 ## What I learnt
 * async/await for model training, in tensorflow.js
