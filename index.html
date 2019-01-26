@@ -1,0 +1,42 @@
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+</head>
+<body>
+    <b>Tensorsflow.js Number Pattern Prediction</b>
+    <div id="results">
+
+    </div>
+
+   <div id="train"> 
+       <p>Enter 6 input numbers and their corresponding answers.</p>
+    <form action=".">
+        Inputs = Answers: <br/>
+        <input type="text" name="i1" value="1"> = <input type="text" name="o1" value="2"><br>
+        <input type="text" name="i2" value="2"> = <input type="text" name="o2" value="4"><br>
+        <input type="text" name="i3" value="3"> = <input type="text" name="o3" value="6"><br>
+        <input type="text" name="i4" value="4"> = <input type="text" name="o4" value="8"><br>
+        <input type="text" name="i5" value="5"> = <input type="text" name="o5" value="10"><br>
+        <input type="text" name="i6" value="7"> = <input type="text" name="o6" value="14"><br>
+        <br/>
+        <input type="submit" value="Submit form">
+    </form>
+</div>
+
+<div id="predict">
+    <p>training has finished. Enter in a number for the model to predict the answer.</p>
+    <form action=".">
+        predict: <br />
+        <input type="text" name="p1" value="1"><br/>
+        <br/>
+        <input type="submit" value="Submit form">
+    </form>
+
+
+</div>
+
+
+    <script src="./index.js"> </script>
+</body>
+
+</html>

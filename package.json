@@ -1,0 +1,15 @@
+{
+  "name": "tensorflowjssimple",
+  "version": "1.0.0",
+  "description": "simple tensorflow.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "frankc60",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-google": "^0.11.0"
+  }
+}
